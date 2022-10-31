@@ -16,7 +16,8 @@ class NotebookController extends Controller
         'name' => 'required',
         'phoneNumber' => 'required|numeric',
         'email' => 'required|email',
-        'birthDate' => 'nullable|date',    
+        'birthDate' => 'nullable|date',  
+        'image' => 'image|mimes:jpg,png,jpeg,gif,svg',  
     ];
 
     /**
