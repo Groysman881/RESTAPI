@@ -1,11 +1,11 @@
 Необходимые действия:
-1) Указать в файле .env следующие настройки для базы данных\n
-    DB_CONNECTION=mysql\n
-    DB_HOST=db\n
-    DB_PORT=3306\n
-    DB_DATABASE=restapi\n
-    DB_USERNAME=restapi_user\n
-    DB_PASSWORD=password\n
+1) Указать в файле .env следующие настройки для базы данных
+    DB_CONNECTION=mysql
+    DB_HOST=db
+    DB_PORT=3306
+    DB_DATABASE=restapi
+    DB_USERNAME=restapi_user
+    DB_PASSWORD=password
     
 2) docker compose build app
 
